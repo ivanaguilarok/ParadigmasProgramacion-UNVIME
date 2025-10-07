@@ -1,0 +1,21 @@
+Considera el lenguaje TypeScript acotado al paradigma de programación estructurada y analízalo en términos de "los cuatro componentes de un paradigma" mencionados por Kuhn.
+
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+	Las generalizaciones simbólicas son las reglas escritas del lenguaje, es decir, su sintaxis y estructura formal.
+	En el caso de TypeScript, estas reglas incluyen:
+		- La sintaxis base de JavaScript, con estructuras de control clásicas de la programación estructurada: if, else, switch, for, while, do...while, function
+		- El tipado estático y las anotaciones de tipo, que agregan robustez y claridad al código:
+			let nombre: string = "Olivia";
+			function sumar(a: number, b: number): number { return a + b; }
+
+	El uso de módulos (import / export) para organizar el código en unidades lógicas, promoviendo la modularización.
+	Las reglas de alcance (scope), declaración de variables (let, const) y funciones puras, características esenciales del paradigma estructurado.
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+	Dentro de la comunidad de desarrolladores, se sostiene que TypeScript ofrece mejoras significativas respecto a otros lenguajes o a JavaScript puro.
+	Entre las creencias más comunes se encuentran:
+		- Mayor seguridad y confiabilidad gracias al tipado estático y a la detección temprana de errores en tiempo de compilación.
+		- Claridad y mantenibilidad del código, ya que los tipos, interfaces y estructuras bien definidas facilitan el trabajo en equipos grandes.
+		- Compatibilidad total con JavaScript, permitiendo migrar proyectos existentes sin perder flexibilidad.
+		- Facilidad para modularizar y abstraer funciones y tipos, fomentando una programación más ordenada y escalable, incluso dentro del enfoque estructurado.
+		- Se considera que TypeScript combina la simplicidad de la programación estructurada con la robustez del tipado fuerte, haciendo que el código sea más legible, seguro y predecible.
