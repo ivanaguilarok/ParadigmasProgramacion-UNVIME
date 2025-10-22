@@ -1,0 +1,32 @@
+# Ejercicio 1
+
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+Estas son las reglas formales e indiscutibles del paradigma. Son la "física" del lenguaje que te permite hacer OOP.
+- Axioma: Los objetos se heredan de otros objetos.
+- La Cadena de Prototipos, es la regla de oro de la herencia de JS. Cada objeto tiene una propiedad interna que es un enlace a otro objeto.
+- Constructores, una "clase" en este paradigma es simplemente una funcion normal, y se convierte en un "constructor" solo cuando se la invoca con la palaba clave "new".
+- La palabra clave "new", es una regla sintáctica fundamental que ejecuta un algoritmo específico.
+- La propiedad .prototype, es un objeto vacío que solo se usa para una cosa: servir como el prototipo de los objetos creados con new y esa función.
+- El método Object.create(), es la forma "pura" de crear un objeto con un prototipo específico sin usar "new".
+- El contexto this, Su valor no se define al escribir el código (léxico), sino en el momento de la ejecución (dinámico), dependiendo de quién llamó a la función.
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+-La flexibilidad es superior a la rigidez. 
+Se cree que es mejor porque el modelo de prototipo es increíblemente dinámico.
+Se puede agregar métodos a un sólo objeto.
+Se puede agregar método a todas las instancias existentes y futuras modificando el prototipo en tiempo de ejecución.
+Se puede cambiar la herencia de un objeto "en caliente".
+En un modelo de clases estático, la definición de la clase es fija. En JS, todo es mutable.
+
+-La simplicidad conceptual es clave.
+El paradigma clásico tiene dos conceptos: Clases (los moldes) y Objetos (las instancias).
+El paradigma de prototipos solo tiene un concepto: Objetos.
+La creencia es que "objetos heredando de otros objetos" es un modelo mental más simple y directo que tener un "molde" abstracto (Clase) separado de la instancia (Objeto).
+
+-Los literales de objeto son la mejor forma de empezar.
+En JS, puedes crear un objeto complejo instantáneamente: let miObjeto = { a: 1, b: function() {...} }.
+En muchos lenguajes clásicos, no puedes crear un objeto sin definir primero una class. La filosofía de JS cree que deberías poder crear objetos "al vuelo" sin tanta ceremonia, y si luego necesitas un molde, usas un constructor.
+
+-La composición es más natural que la herencia.
+Dado que los objetos son tan flexibles (bolsas dinámicas de propiedades), es muy fácil implementar patrones como mixins (copiar propiedades de un objeto a otro, usando Object.assign por ejemplo).
+Muchos desarrolladores de JS creen que es mejor "componer" objetos (darles "habilidades" de diferentes fuentes) que forzarlos a una jerarquía de herencia rígida (un Gato es un Animal), lo cual puede volverse frágil (el "problema del gorila y la banana").

@@ -1,0 +1,16 @@
+# Ejercicio 4
+
+Para la refactorización del TodoList, apliqué principalmente Encapsulamiento, Abtracción y Herencia Prototípica.
+No utilicé la Herencia de Subclases ni el Polimorfismo ya que no eran necesarios para este problema.
+
+# Caracteritica que utilicé
+Encapsulamiento: agrupé los datos (propiedades) junto con las funciones (métodos) que los manipulan. Por ejemplo: La function Tarea encapsula sus propios datos (this.titulo, this.estado) y sus métodos (.editar(), .mostrarDetalles()). Del mismo modo, TodoList encapsula el array this.tareas y los métodos para gestionarlo (_agregarTarea()), evitando las variables globales del código original.
+
+Abstracción: oculté la complejidad de la implementación detrás de una interfaz simple. Por ejemplo: El archivo main.js es muy simple; solo llama a miApp.iniciar(). No necesita saber cómo funcionan los menús, los filtros o la librería readline-sync. Toda esa complejidad está oculta (abstraída) dentro del objeto TodoList.
+
+Herencia Prototípica: la usé para la eficiencia de la memoria. Por ejemplo: En lugar de que cada objeto tarea (t1, t2, t3...) tenga su propia copia de la función .mostrarDetalles(), todas las instancias comparten la misma función definida una sola vez en Tarea.prototype. Las instancias "heredan" (delegan) ese comportamiento.
+
+# Características que no utilicé
+Herencia de Subclases: No creé "tipos" especializados de tareas (como TareaUrgente que heredara de Tarea), porque no fue necesario. Todas las tareas eran funcionalmente idénticas. Crear una jerarquía de clases habría añadido una complejidad innecesaria para este problema.
+
+Polimorfismo: Esta es la capacidad de que objetos de diferentes tipos respondan al mismo método de formas distintas (ej: animal.hacerSonido()), porque como no usé herencia de subclases, no tenía diferentes tipos de objetos. Todas mis instancias eran Tarea y respondían a los métodos (como .editar()) de la misma manera.
