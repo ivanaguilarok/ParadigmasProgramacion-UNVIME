@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5742e08d-d73c-4b09-a01f-bece88012758",
+    "title": "Aprender HTML",
+    "description": "No es un lenguaje de programacion",
+    "status": "Pendiente",
+    "difficulty": "Medio",
+    "createdAt": "2025-11-30T18:01:37.436Z",
+    "lastEditedAt": "2025-11-30T18:01:37.436Z",
+    "dueDate": "2026-04-08T00:00:00.000Z"
+  },
+  {
+    "id": "0456b458-235c-4440-9492-b8dd52569392",
+    "title": "Aprender CSS",
+    "description": "Es solo pintar botones",
+    "status": "Pendiente",
+    "difficulty": "Difícil",
+    "createdAt": "2025-11-30T18:02:41.322Z",
+    "lastEditedAt": "2025-11-30T18:02:41.322Z",
+    "dueDate": "2026-08-04T00:00:00.000Z"
+  },
+  {
+    "id": "967f231d-96db-4981-84cd-b5b2ccfc64d8",
+    "title": "Aprender JavaScript",
+    "description": "Este si es un lenguaje de programacion",
+    "status": "Pendiente",
+    "difficulty": "Difícil",
+    "createdAt": "2025-11-30T18:03:50.299Z",
+    "lastEditedAt": "2025-11-30T18:03:50.299Z",
+    "dueDate": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": "dccd7b60-20a4-4af8-863b-4757bdb43eeb",
+    "title": "Hacer ejercicio",
+    "description": "Mancuernas",
+    "status": "Pendiente",
+    "difficulty": "Difícil",
+    "createdAt": "2025-11-30T18:57:45.577Z",
+    "lastEditedAt": "2025-11-30T18:57:45.577Z",
+    "dueDate": "2025-12-12T00:00:00.000Z"
+  },
+  {
+    "id": "bbf764ff-69a4-4d76-b8ed-6943a606a7da",
+    "title": "Reparar el aire acondicionado",
+    "description": "No enfria bien",
+    "status": "Pendiente",
+    "difficulty": "Difícil",
+    "createdAt": "2025-11-30T18:58:33.026Z",
+    "lastEditedAt": "2025-11-30T18:58:33.026Z",
+    "dueDate": "2025-12-21T00:00:00.000Z"
+  },
+  {
+    "id": "4143af0e-0c67-42e4-9959-142b6eb76373",
+    "title": "Limpiar el garage",
+    "description": "Esta muy sucio y desordenado",
+    "status": "Pendiente",
+    "difficulty": "Difícil",
+    "createdAt": "2025-11-30T18:59:01.762Z",
+    "lastEditedAt": "2025-11-30T18:59:01.762Z",
+    "dueDate": "2025-12-27T00:00:00.000Z"
+  }
+]

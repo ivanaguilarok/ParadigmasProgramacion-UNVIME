@@ -1,0 +1,29 @@
+[
+  {
+    "id": "4017a656-1d5c-4487-b998-7aa68db976d7",
+    "titulo": "Comer",
+    "descripcion": "Guiso de lentejas",
+    "estado": "Pendiente",
+    "dificultad": "Difícil",
+    "fechaCreacion": "2025-12-01T03:11:46.961Z",
+    "ultimaEdicion": "2025-12-01T03:11:46.961Z"
+  },
+  {
+    "id": "0db917cf-4399-48f7-aa56-6374f71a07e3",
+    "titulo": "Limpiar",
+    "descripcion": "El ba�o",
+    "estado": "Pendiente",
+    "dificultad": "Difícil",
+    "fechaCreacion": "2025-12-01T03:12:31.610Z",
+    "ultimaEdicion": "2025-12-01T03:12:31.610Z"
+  },
+  {
+    "id": "cee9873f-2d83-4258-abe2-bc30ea234159",
+    "titulo": "Jugar",
+    "descripcion": "Al pes",
+    "estado": "Pendiente",
+    "dificultad": "Fácil",
+    "fechaCreacion": "2025-12-01T03:12:55.316Z",
+    "ultimaEdicion": "2025-12-01T03:13:57.802Z"
+  }
+]
